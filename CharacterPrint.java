@@ -1,7 +1,7 @@
 package com.codewithme;
 public class CharacterPrint {
     public static void main(String args[]){
-        int n = 9;
+        int n = 7;
         for (int i = 0; i < n; i++) {
             char c = 65;
             for (int j = 0; j <=i; j++) {
