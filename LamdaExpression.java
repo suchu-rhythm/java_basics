@@ -1,5 +1,5 @@
-interface A1{
-        void show(int j);
+interface A2{
+        void show(String name);
         }
 /*
 class B extends A1{
@@ -13,8 +13,8 @@ class B extends A1{
 class LamdaExpression{
     public static void main(String args[]){
 
-        A1 obj = (int j )-> System.out.println("display something In Class B... "+j);
-        obj.show(7);
+        A2 obj = (String myName )-> System.out.println("display something In Class B... "+myName);
+        obj.show("Sudhan");
 
     }
 }
